@@ -1,0 +1,6 @@
+additionalArguments:
+  - "--log.level=TRACE"
+  - "--accesslog=true"
+  - "--certificatesresolvers.myresolver.acme.email=gke-arti@aiwa.anonaddy.com"
+  - "--certificatesresolvers.myresolver.acme.storage=/data/acme.json"
+  - "--certificatesresolvers.myresolver.acme.tlschallenge=true"
